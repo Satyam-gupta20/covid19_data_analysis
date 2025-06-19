@@ -50,14 +50,6 @@ The dataset used is `COVID19_state.csv`, obtained from Kaggle ([https://www.kagg
     -   Scatter plots to explore relationships between two variables (e.g., population density vs. infection rate, smoking rate vs. mortality rate).
     -   Box plots for understanding the distribution of calculated rates.
 
-## Analysis Highlights (Example Insights - *replace with your actual findings*):
-
--   States with higher populations or population densities do not always directly translate to proportionally higher `Infection_Rate` or `Mortality_Rate`, suggesting other factors are at play.
--   The `Correlation Matrix` reveals interesting relationships, such as a strong positive correlation between `Infected` cases and `Tested` individuals, which is expected.
--   There might be a weak positive correlation between `Age 55+` population percentage and `Mortality_Rate`, indicating higher risk for older demographics.
--   The `Test_Positivity_Rate` provides insight into testing adequacy – a high rate might suggest insufficient testing.
--   (Add more specific insights you find after running the script, e.g., relationships with `ICU Beds`, `Health Spending`, `Pollution`, etc.)
-
 ## How to Run This Project
 
 1.  **Clone the repository (or create the directory and files manually):**
@@ -92,14 +84,5 @@ The dataset used is `COVID19_state.csv`, obtained from Kaggle ([https://www.kagg
 -   Matplotlib (for basic plotting and saving figures)
 -   Seaborn (for enhanced statistical visualizations)
 -   Sublime Text (for coding)
-
-## Future Enhancements
-
--   Perform time-series analysis if daily or weekly data becomes available.
--   Develop a predictive model (e.g., regression) to estimate `Infected` cases or `Deaths` based on state-level factors.
--   Integrate more granular data (e.g., county-level data).
--   Build an interactive dashboard using Streamlit or Dash for dynamic exploration.
--   Explore the impact of `School Closure Date` or other policy changes on COVID-19 metrics.
--   Incorporate data from external APIs.
 
 ---
